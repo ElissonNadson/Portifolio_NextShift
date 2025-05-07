@@ -10,43 +10,47 @@ const Projects = () => {
 
   const projectsData: ProjectDetails[] = [
     {
-      id: 'ecommerce',
-      title: t('projects.ecommerce.title'),
-      description: t('projects.ecommerce.description'),
+      id: 'Quack',
+      title: t('projects.Quack.title'),
+      description: t('projects.Quack.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'E-commerce dashboard showing product listings'
+          url: '/src/assets/Quack.png',
+          alt: 'Quack Sing up page'
         },
         {
-          url: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'E-commerce shopping cart'
+          url: '/src/assets/Quack2.png',
+          alt: 'Quack Home page'
         },
         {
-          url: 'https://images.unsplash.com/photo-1550399504-8953e1a6ac87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'E-commerce payment processing'
+          url: '/src/assets/Quack3.png',
+          alt: 'Quack Landing page'
         }
       ],
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      tags: ['React', 'Node.js', 'JavaScript', 'Java'],
       liveUrl: '#',
       githubUrl: 'https://github.com/NextShift/ecommerce'
     },
     {
-      id: 'health',
-      title: t('projects.health.title'),
-      description: t('projects.health.description'),
+      id: 'SusSenai',
+      title: t('projects.SusSenai.title'),
+      description: t('projects.SusSenai.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
+          url: '/src/assets/SusSenai.png',
           alt: 'Health app dashboard'
         },
         {
-          url: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
+          url: '/src/assets/SusSenai2.png',
           alt: 'Health metrics tracking'
         },
         {
-          url: 'https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
+          url: '/src/assets/SusSenai3.png',
           alt: 'Appointment scheduling interface'
+        },
+        {
+          url: '/src/assets/SusSenai4.png',
+          alt: 'Health app landing page'
         }
       ],
       tags: ['React Native', 'Firebase', 'GraphQL'],
@@ -54,20 +58,20 @@ const Projects = () => {
       githubUrl: 'https://github.com/NextShift/health-app'
     },
     {
-      id: 'smartcity',
-      title: t('projects.smartcity.title'),
-      description: t('projects.smartcity.description'),
+      id: 'ParkPass',
+      title: t('projects.ParkPass.title'),
+      description: t('projects.ParkPass.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1515630771457-09367d0ae038?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Smart city dashboard'
+          url: '/src/assets/ParkPass.png',
+          alt: 'ParkPass dashboard'
         },
         {
-          url: 'https://images.unsplash.com/photo-1573979429769-bd49eb370752?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
+          url: '/src/assets/ParkPass2.png',
           alt: 'Traffic monitoring system'
         },
         {
-          url: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
+          url: '/src/assets/ParkPass3.png',
           alt: 'City utilities management'
         }
       ],
