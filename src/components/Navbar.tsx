@@ -4,6 +4,8 @@ import logo from '../assets/icons8-código-fonte-32.png'
 import LanguageSelector from './LanguageSelector'
 import { useLanguage } from '@/lib/LanguageContext'
 import TeamModal from './TeamModal'
+import ThemeSwitcher from './ThemeSwither'
+
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -84,6 +86,7 @@ const Navbar = () => {
                 <Mail size={20} />
               </button>
               <LanguageSelector />
+              <ThemeSwitcher />
             </div>
           </div>
         </div>
