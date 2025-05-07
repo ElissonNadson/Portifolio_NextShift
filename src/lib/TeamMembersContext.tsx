@@ -21,44 +21,54 @@ const TeamMembersContext = createContext<TeamContextType | undefined>(undefined)
 export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const members: TeamMember[] = [
     {
-      name: "Ana Silva",
+      name: "Thiago Machado",
       role: {
-        en: "Frontend Developer",
-        pt: "Desenvolvedora Frontend"
+        en: "Developer",
+        pt: "Desenvolvedor"
       },
-      github: "anasilva",
-      linkedin: "ana-silva-dev",
-      email: "ana.silva@nextshift.com"
+      github: "ThiagoMachado2",
+      linkedin: "thiago-machado-20658b32a",
+      email: "thiago.a.machado002@gmail.com"
     },
     {
-      name: "Carlos Oliveira",
+      name: "José Henrique Lopes",
       role: {
-        en: "Backend Developer",
-        pt: "Desenvolvedor Backend"
+        en: "Developer",
+        pt: "Desenvolvedor"
       },
-      github: "carlosoliveira",
-      linkedin: "carlos-oliveira-dev",
-      email: "carlos.oliveira@nextshift.com"
+      github: "josehlopes",
+      linkedin: "josé-henrique-silva-lopes-826981208",
+      email: "josehlopes.s2002@gmail.com"
     },
     {
-      name: "Mariana Santos",
+      name: "Elisson Marques",
       role: {
-        en: "UI/UX Designer",
-        pt: "Designer de UI/UX"
+        en: "Developer",
+        pt: "Desenvolvedor"
       },
-      github: "marianasantos",
-      linkedin: "mariana-santos-design",
-      email: "mariana.santos@nextshift.com"
+      github: "ElissonNadson",
+      linkedin: "elissonmarques",
+      email: "nadsonnodachi@gmail.com"
     },
     {
-      name: "Pedro Costa",
+      name: "Samuel Junior",
       role: {
-        en: "Project Manager",
-        pt: "Gerente de Projetos"
+        en: "Developer",
+        pt: "Desenvolvedor"
       },
-      github: "pedrocosta",
-      linkedin: "pedro-costa-pm",
-      email: "pedro.costa@nextshift.com"
+      github: "Sjr0405",
+      linkedin: "samuel-junior-0415b8299",
+      email: "samueljunior.santos@gmail.com"
+    },
+    {
+      name: "Adriel Henrique",
+      role: {
+        en: "Developer",
+        pt: "Desenvolvedor"
+      },
+      github: "YGerard324",
+      linkedin: "adriel-henrique-a20601225",
+      email: "adriel@gmail.com"
     }
   ];
 
