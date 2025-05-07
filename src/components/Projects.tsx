@@ -7,43 +7,49 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A comprehensive e-commerce solution with inventory management, payment processing, and customer analytics.',
+      id: 'ecommerce',
+      title: t('projects.ecommerce.title'),
+      description: t('projects.ecommerce.description'),
       image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe']
     },
     {
-      title: 'Health Monitoring App',
-      description: 'Mobile application for tracking health metrics, scheduling appointments, and connecting with healthcare providers.',
+      id: 'health',
+      title: t('projects.health.title'),
+      description: t('projects.health.description'),
       image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['React Native', 'Firebase', 'GraphQL']
     },
     {
-      title: 'Smart City Dashboard',
-      description: 'Real-time monitoring dashboard for municipal services, including utilities, transportation, and public safety.',
+      id: 'smartcity',
+      title: t('projects.smartcity.title'),
+      description: t('projects.smartcity.description'),
       image: 'https://images.unsplash.com/photo-1515630771457-09367d0ae038?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['Vue.js', 'Express', 'PostgreSQL', 'D3.js']
     },
     {
-      title: 'Supply Chain Management',
-      description: 'End-to-end logistics platform for tracking products from manufacturer to consumer with blockchain verification.',
+      id: 'supplychain',
+      title: t('projects.supplychain.title'),
+      description: t('projects.supplychain.description'),
       image: 'https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['React', 'Python', 'Blockchain', 'AWS']
     },
     {
-      title: 'Educational Learning Platform',
-      description: 'Interactive learning environment with courses, quizzes, progress tracking, and video conferencing.',
+      id: 'education',
+      title: t('projects.education.title'),
+      description: t('projects.education.description'),
       image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['Angular', 'Java', 'MySQL', 'WebRTC']
     },
     {
-      title: 'Financial Analytics Tool',
-      description: 'Advanced analytics dashboard for investment portfolio management with predictive AI capabilities.',
+      id: 'finance',
+      title: t('projects.finance.title'),
+      description: t('projects.finance.description'),
       image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
       link: '#',
       tags: ['Next.js', 'TensorFlow', 'Python', 'D3.js']
@@ -74,7 +80,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
-              key={project.title}
+              key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

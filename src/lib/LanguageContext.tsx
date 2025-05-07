@@ -45,6 +45,20 @@ const translations = {
     'projects.title': 'Our Projects',
     'projects.subtitle': 'Explore our portfolio of successful projects that demonstrate our technical expertise and innovative solutions.',
     'projects.viewDetails': 'View Details',
+    
+    // Project Cards
+    'projects.ecommerce.title': 'E-Commerce Platform',
+    'projects.ecommerce.description': 'A comprehensive e-commerce solution with inventory management, payment processing, and customer analytics.',
+    'projects.health.title': 'Health Monitoring App',
+    'projects.health.description': 'Mobile application for tracking health metrics, scheduling appointments, and connecting with healthcare providers.',
+    'projects.smartcity.title': 'Smart City Dashboard',
+    'projects.smartcity.description': 'Real-time monitoring dashboard for municipal services, including utilities, transportation, and public safety.',
+    'projects.supplychain.title': 'Supply Chain Management',
+    'projects.supplychain.description': 'End-to-end logistics platform for tracking products from manufacturer to consumer with blockchain verification.',
+    'projects.education.title': 'Educational Learning Platform',
+    'projects.education.description': 'Interactive learning environment with courses, quizzes, progress tracking, and video conferencing.',
+    'projects.finance.title': 'Financial Analytics Tool',
+    'projects.finance.description': 'Advanced analytics dashboard for investment portfolio management with predictive AI capabilities.',
 
     // Footer
     'footer.company': 'Next Shift',
@@ -55,7 +69,7 @@ const translations = {
   },
   pt: {
     // Company name
-    'company.name': 'Próximo Turno',
+    'company.name': 'Next Shift',
     
     // Navbar
     'nav.home': 'Início',
@@ -71,7 +85,7 @@ const translations = {
 
     // Services
     'services.title': 'Nossos Serviços',
-    'services.subtitle': 'Na Próximo Turno, oferecemos soluções técnicas abrangentes para ajudá-lo a navegar pelo cenário digital e transformar suas ideias em realidade.',
+    'services.subtitle': 'Na Next Shift, oferecemos soluções técnicas abrangentes para ajudá-lo a navegar pelo cenário digital e transformar suas ideias em realidade.',
     'services.customDev.title': 'Desenvolvimento Personalizado',
     'services.customDev.description': 'Soluções de software sob medida projetadas para atender às necessidades e objetivos específicos do seu negócio.',
     'services.webApp.title': 'Aplicações Web',
@@ -89,9 +103,23 @@ const translations = {
     'projects.title': 'Nossos Projetos',
     'projects.subtitle': 'Explore nosso portfólio de projetos bem-sucedidos que demonstram nossa expertise técnica e soluções inovadoras.',
     'projects.viewDetails': 'Ver Detalhes',
+    
+    // Project Cards
+    'projects.ecommerce.title': 'Plataforma de E-Commerce',
+    'projects.ecommerce.description': 'Uma solução abrangente de comércio eletrônico com gerenciamento de inventário, processamento de pagamentos e análise de clientes.',
+    'projects.health.title': 'App de Monitoramento de Saúde',
+    'projects.health.description': 'Aplicativo móvel para acompanhamento de métricas de saúde, agendamento de consultas e conexão com profissionais de saúde.',
+    'projects.smartcity.title': 'Dashboard de Cidade Inteligente',
+    'projects.smartcity.description': 'Painel de monitoramento em tempo real para serviços municipais, incluindo utilidades, transporte e segurança pública.',
+    'projects.supplychain.title': 'Gestão de Cadeia de Suprimentos',
+    'projects.supplychain.description': 'Plataforma logística completa para rastreamento de produtos do fabricante ao consumidor com verificação blockchain.',
+    'projects.education.title': 'Plataforma de Aprendizado Educacional',
+    'projects.education.description': 'Ambiente de aprendizado interativo com cursos, quizzes, acompanhamento de progresso e videoconferência.',
+    'projects.finance.title': 'Ferramenta de Análise Financeira',
+    'projects.finance.description': 'Dashboard avançado de análise para gestão de portfólio de investimentos com recursos de IA preditiva.',
 
     // Footer
-    'footer.company': 'Próximo Turno',
+    'footer.company': 'Next Shift',
     'footer.description': 'Transformamos ideias em produtos com eficiência, estratégia e excelência técnica.',
     'footer.services': 'Nossos Serviços',
     'footer.contact': 'Contato',
