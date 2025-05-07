@@ -63,16 +63,28 @@ const Projects = () => {
       description: t('projects.ParkPass.description'),
       images: [
         {
-          url: '/src/assets/ParkPass.png',
+          url: '/src/assets/ParkPass6.png',
           alt: 'ParkPass dashboard'
         },
         {
-          url: '/src/assets/ParkPass2.png',
+          url: '/src/assets/ParkPass.png',
           alt: 'Traffic monitoring system'
         },
         {
-          url: '/src/assets/ParkPass3.png',
+          url: '/src/assets/ParkPass2.png',
           alt: 'City utilities management'
+        },
+        {
+          url: '/src/assets/ParkPass3.png',
+          alt: 'ParkPass landing page'
+        },
+        {
+          url: '/src/assets/ParkPass4.png',
+          alt: 'ParkPass login page'
+        },
+        {
+          url: '/src/assets/ParkPass5.png',
+          alt: 'ParkPass sign up page'
         }
       ],
       tags: ['Vue.js', 'Express', 'PostgreSQL', 'D3.js'],
