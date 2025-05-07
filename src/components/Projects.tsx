@@ -25,6 +25,10 @@ const Projects = () => {
         {
           url: '/src/assets/Quack3.png',
           alt: 'Quack Landing page'
+        },
+        {
+          url: '/src/assets/Quack4.png',
+          alt: 'Quack Profile page'
         }
       ],
       tags: ['React', 'Node.js', 'JavaScript', 'Java'],
@@ -92,21 +96,21 @@ const Projects = () => {
       githubUrl: 'https://github.com/NextShift/smart-city'
     },
     {
-      id: 'supplychain',
-      title: t('projects.supplychain.title'),
-      description: t('projects.supplychain.description'),
+      id: 'ThigasSalon',
+      title: t('projects.ThigasSalon.title'),
+      description: t('projects.ThigasSalon.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Supply chain tracking dashboard'
+          url: '/src/assets/ThigasSalon.png',
+          alt: 'ThigasSalon tracking dashboard'
         },
         {
-          url: 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Logistics tracking map'
+          url: '/src/assets/ThigasSalon2.png',
+          alt: 'ThigasSalon tracking map'
         },
         {
-          url: 'https://images.unsplash.com/photo-1570449942806-3a5402621f49?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Blockchain verification interface'
+          url: '/src/assets/ThigasSalon3.png',
+          alt: 'ThigasSalon verification interface'
         }
       ],
       tags: ['React', 'Python', 'Blockchain', 'AWS'],
@@ -114,21 +118,25 @@ const Projects = () => {
       githubUrl: 'https://github.com/NextShift/supply-chain'
     },
     {
-      id: 'education',
-      title: t('projects.education.title'),
-      description: t('projects.education.description'),
+      id: 'EcoTrack',
+      title: t('projects.EcoTrack.title'),
+      description: t('projects.EcoTrack.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Educational platform dashboard'
+          url: '/src/assets/EcoTrack.png',
+          alt: 'EcoTrack dashboard'
         },
         {
-          url: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Online course interface'
+          url: '/src/assets/EcoTrack2.png',
+          alt: 'EcoTrack course interface'
         },
         {
-          url: 'https://images.unsplash.com/photo-1560785496-3c9d27877182?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Progress tracking analytics'
+          url: '/src/assets/EcoTrack3.png',
+          alt: 'EcoTrack tracking analytics'
+        },
+        {
+          url: '/src/assets/EcoTrack4.png',
+          alt: 'EcoTrack landing page'
         }
       ],
       tags: ['Angular', 'Java', 'MySQL', 'WebRTC'],
@@ -136,21 +144,25 @@ const Projects = () => {
       githubUrl: 'https://github.com/NextShift/education-platform'
     },
     {
-      id: 'finance',
-      title: t('projects.finance.title'),
-      description: t('projects.finance.description'),
+      id: 'AgriSense',
+      title: t('projects.AgriSense.title'),
+      description: t('projects.AgriSense.description'),
       images: [
         {
-          url: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Financial analytics dashboard'
+          url: '/src/assets/AgriSense.png',
+          alt: 'AgriSense analytics dashboard'
         },
         {
-          url: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Investment portfolio management'
+          url: '/src/assets/AgriSense2.png',
+          alt: 'AgriSense management'
         },
         {
-          url: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80',
-          alt: 'Predictive AI visualization'
+          url: '/src/assets/AgriSense3.png',
+          alt: 'AgriSense AI visualization'
+        },
+        {
+          url: '/src/assets/AgriSense4.png',
+          alt: 'AgriSense landing page'
         }
       ],
       tags: ['Next.js', 'TensorFlow', 'Python', 'D3.js'],
