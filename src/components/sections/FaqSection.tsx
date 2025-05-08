@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import Wave from '@/components/ui/Wave';
 
 const faqs = [
   {
@@ -28,7 +29,7 @@ const FaqSection: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="py-20 bg-custom-dark-light">
+    <section id="faq" className="py-20 bg-[#201739] relative">
       <div className="container mx-auto px-4 max-w-2xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-white">FAQ</h2>
         <div className="space-y-4">

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/utils/LanguageContext';
 import { Code, Globe, Smartphone, Database, Cloud, Shield } from 'lucide-react';
+import Wave from '@/components/ui/Wave';
 
 type ServiceItem = {
   title: string;
@@ -62,7 +63,7 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section id="services" className="py-24 bg-custom-dark">
+    <section id="services" className="py-24 bg-[#2d145d] relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

@@ -4,6 +4,7 @@ import TeamModal from '@/components/modals/TeamModal';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { Button } from '@/components/ui/button';
+import Wave from '@/components/ui/Wave';
 
 export type TeamMember = {
   id: string;
@@ -101,7 +102,7 @@ const TeamSlider: React.FC = () => {
   const scrollNext = () => emblaApi && emblaApi.scrollNext();
 
   return (
-    <section id="team" className="py-20 bg-custom-dark">
+    <section id="team" className="py-20  relative">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           {language === 'en' ? 'Our Team' : 'Nossa Equipe'}

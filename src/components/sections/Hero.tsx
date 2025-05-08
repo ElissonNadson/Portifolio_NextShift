@@ -2,15 +2,35 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/utils/LanguageContext';
 import broImage from '/projects/acessorios/Tele-computador.svg';
+import graphic1 from '/projects/acessorios/Graphic-1.svg';
+import graphic2 from '/projects/acessorios/Graphic.svg';
 
 const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 bg-custom-dark">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-custom-dark to-custom-dark-light relative overflow-hidden">
+      {/* Background Graphics */}
+      <motion.img
+        src={graphic1}
+        alt=""
+        className="absolute top-1/4 left-10 opacity-20"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 0.2, x: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
+      />
+      <motion.img
+        src={graphic2}
+        alt=""
+        className="absolute bottom-1/4 right-10 opacity-20"
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 0.2, x: 0 }}
+        transition={{ duration: 1, delay: 0.4 }}
+      />
+      
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="md:w-5/12 text-left">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-12">
+          <div className="md:w-1/2 text-center md:text-left mx-4 md:mx-8">
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -39,14 +59,14 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="bg-custom-purple text-white px-8 py-3 rounded-lg flex items-center space-x-2 hover:bg-opacity-90 transition-all"
+              className="bg-custom-purple text-white px-8 py-3 rounded-lg flex items-center justify-center md:justify-start space-x-2 hover:bg-opacity-90 transition-all mx-auto md:mx-0"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <span>{t('hero.cta')}</span>
               <ArrowRight size={20} />
             </motion.button>
           </div>
-          <div className="md:w-6/12 mt-12 md:mt-0 flex justify-end">
+          <div className="md:w-1/2 flex justify-center items-center">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
