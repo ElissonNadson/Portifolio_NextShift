@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
   {
     id: 'adriel',
     name: 'Adriel Henrique',
-    role: 'Desenvolvedor Frontend',
+    role: 'Desenvolvedor Fullstack',
     bio: 'Sou programador especializado em Ciência de Dados, pipelines ETL e automações RPA com Python, transformando dados brutos em soluções estratégicas. Utilizo Apache Spark e Databricks para processamento distribuído em larga escala, aliando eficiência operacional a análises preditivas. Minha abordagem combina modelagem de dados, Machine Learning e automação inteligente para otimizar workflows e gerar insights valiosos.',
     image: '/projects/fotos/Adriel.png',
     skills: ['SQL', 'C', 'TypeScript', 'Python', 'JvaScript', 'Java', 'Ruby', 'Git', 'Next.js', 'Apache Spark', 'React', 'TailwindCSS', 'Bootstrap', 'Machine Learning'],
@@ -50,7 +50,7 @@ const teamMembers: TeamMember[] = [
   {
     id: 'nadson',
     name: 'Elisson Nadson',
-    role: 'DevOps Engineer',
+    role: 'Desenvolvedor Frontend',
     bio: 'Iniciei minha trajetória profissional aos 14 anos, conciliando trabalho e estudo para adquirir diversas habilidades. Trabalhei na MDK Provedor, onde aprendi uma profissão e abri meu próprio provedor de internet, e atualmente atuo na Fastnet Informática com instalação e manutenção de sistemas, segurança por câmeras e reparo de computadores. Apesar de pausas nos estudos em Eletrotécnica e Matemática, conclui o curso técnico em informática no IETAAM, estudo Desenvolvimento de Sistemas no SENAI e iniciei Engenharia de Software na Pitágoras. Também tive experiência temporária no IBGE e agora busco oportunidades na programação, determinado a realizar meu sonho de ser um grande programador.',
     image: '/projects/fotos/Nadson.png',
     skills: ['Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Node.js', 'Git', 'Docker', 'React', 'Next.js', 'Express.js', 'AWS', 'Google Cloud', 'Bootstrap', 'Figma', 'C'],
@@ -63,9 +63,9 @@ const teamMembers: TeamMember[] = [
   {
     id: 'samuel',
     name: 'Samuel',
-    role: 'Mobile Developer',
+    role: 'Desenvolvedor Frontend',
     bio: 'Desenvolvedor de Software experiente, com especialização em Python para automação e criação de aplicações robustas. Possui habilidades em HTML & CSS, PHP, JavaScript e TypeScript, desenvolvendo interfaces web dinâmicas e responsivas. Proficiente em SQL/MySQL para gerenciamento de banco de dados. Experiência com Git e GitHub Actions para controle de versão e fluxos de trabalho CI/CD. Forte conhecimento em UI/UX com Figma, aplicando princípios de usabilidade e design. Familiarizado com Java e C#, sempre disposto a aprender e se adaptar. Atua bem tanto de forma independente quanto em equipe, solucionando problemas com inovação e boas práticas.',
-    image: '/projects/fotos/Samuel.png',
+    image: '/projects/fotos/Samuel.jpg',
     skills: ['React Native', 'TypeScript', 'Mobile UI', 'API Integration', 'Redux', 'Git', 'Expo', 'React', 'TailwindCSS', 'Bootstrap', 'Figma', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Next.js', 'C'],
     links: {
       github: 'https://github.com/Sjr0405',
@@ -76,8 +76,8 @@ const teamMembers: TeamMember[] = [
   {
     id: 'thiago',
     name: 'Thiago Andrade',
-    role: 'UI/UX Designer',
-    bio: 'Especialista em criar experiências de usuário intuitivas e interfaces visualmente atraentes, sempre focando na usabilidade.',
+    role: 'Desenvolvedor Backend',
+    bio: 'Meu nome é Thiago de Andrade Barros Machado, tenho 22 anos e sou Desenvolvedor Backend Java com Spring Boot. Tenho experiência em APIs REST e gestão de bancos de dados relacionais (PostgreSQL, MySQL), aplicando Clean Code, SOLID e Clean Architecture. Aplico metodologias ágeis (Scrum, Kanban) e Git Flow para garantir entregas escaláveis e de alta qualidade. Também atuo com Python, C, HTML/CSS e sistemas embarcados, com foco em IoT e microcontroladores. Sou bacharelando em Engenharia de Computação pela UNIFAN (2021–2025) e técnico em Desenvolvimento de Sistemas pelo SENAI.',
     image: '/projects/fotos/Thiago.png',
     skills: ['SQL', 'Java', 'Python', 'PostgreSQL', 'C', 'SQLite','Node.js', 'Git','Next.js', 'Express.js', 'Spring Boot', 'Postman'],
     links: {
