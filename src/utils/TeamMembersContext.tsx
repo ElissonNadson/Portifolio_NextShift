@@ -25,7 +25,7 @@ export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ c
     {
       name: "Thiago Machado",
       avatar: "/projects/fotos/Thiago.png",
-      role: { en: "UI/UX Designer", pt: "UI/UX Designer" },
+      role: { en: "Backend Developer", pt: "Desenvolvedor Backend" },
       github: "ThiagoMachado2",
       linkedin: "thiago-machado-20658b32a",
       email: "thiago.a.machado002@gmail.com",
@@ -43,7 +43,7 @@ export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ c
     {
       name: "Elisson Nadson",
       avatar: "/projects/fotos/Nadson.png",
-      role: { en: "DevOps Engineer", pt: "DevOps Engineer" },
+      role: { en: "Frontend Developer", pt: "Desenvolvedor Frontend" },
       github: "ElissonNadson",
       linkedin: "elissonmarques",
       email: "nadsonnodachi@gmail.com",
@@ -52,7 +52,7 @@ export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ c
     {
       name: "Samuel Junior",
       avatar: "/projects/fotos/Samuel.png",
-      role: { en: "Mobile Developer", pt: "Desenvolvedor Mobile" },
+      role: { en: "Frontend Developer", pt: "Desenvolvedor Frontend" },
       github: "Sjr0405",
       linkedin: "samuel-junior-0415b8299",
       email: "samueljunior.santos@gmail.com",
@@ -61,10 +61,10 @@ export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ c
     {
       name: "Adriel Henrique",
       avatar: "/projects/fotos/Adriel.png",
-      role: { en: "Frontend Developer", pt: "Desenvolvedor Frontend" },
+      role: { en: "Fullstack Developer", pt: "Desenvolvedor Fullstack" },
       github: "YGerard324",
       linkedin: "adriel-henrique-a20601225",
-      email: "adriel@gmail.com",
+      email: "adrielfsa1@gmail.com",
       whatsapp: "https://wa.me/5575991707880"
     }
   ];

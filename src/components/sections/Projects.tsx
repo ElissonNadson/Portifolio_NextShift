@@ -16,8 +16,7 @@ const projectsData: ProjectDetails[] = [
       { url: '/projects/quack/Quack4.png', alt: 'Quack features' },
     ],
     tags: ['React', 'Node.js', 'MongoDB', 'Express', 'Styled Components'],
-    githubUrl: 'https://github.com/nextshift/quack',
-    liveUrl: 'https://quack.dev',
+    githubUrl: 'https://github.com/Sjr0405/Frontend-do-Quack',
   },
   {
     id: 'SusSenai',
@@ -30,22 +29,21 @@ const projectsData: ProjectDetails[] = [
       { url: '/projects/sus-sem-fila/SusSenai4.png', alt: 'SUS Sem Fila features' },
     ],
     tags: ['React Native', 'Expo', 'Firebase', 'Google Maps API', 'Redux'],
-    githubUrl: 'https://github.com/nextshift/sus-sem-fila',
-    liveUrl: 'https://play.google.com/store/apps/sus-sem-fila',
   },
   {
     id: 'ParkPass',
     title: 'ParkPass',
     description: '', // Will be populated from translations
     images: [
-      { url: '/projects/parkpass/ParkPass.png', alt: 'ParkPass mobile app' },
+      { url: '/projects/parkpass/ParkPass6.png', alt: 'ParkPass mobile app' },
       { url: '/projects/parkpass/ParkPass2.png', alt: 'ParkPass dashboard' },
       { url: '/projects/parkpass/ParkPass3.png', alt: 'ParkPass parking spot' },
       { url: '/projects/parkpass/ParkPass4.png', alt: 'ParkPass features' },
+      { url: '/projects/parkpass/ParkPass5.png', alt: 'ParkPass admin panel' },
+      { url: '/projects/parkpass/ParkPass.png', alt: 'ParkPass landing page' },
+      { url: '/projects/parkpass/ParkPass7.svg', alt: 'ParkPass mobile view' },
     ],
     tags: ['React Native', 'TypeScript', 'Node.js', 'PostgreSQL', 'AWS'],
-    githubUrl: 'https://github.com/nextshift/parkpass',
-    liveUrl: 'https://parkpass.app',
   },
   {
     id: 'ThigasSalon',
@@ -57,8 +55,6 @@ const projectsData: ProjectDetails[] = [
       { url: '/projects/thigas-salon/ThigasSalon3.png', alt: 'Thigas Pet Salon admin panel' },
     ],
     tags: ['React', 'Next.js', 'MongoDB', 'TailwindCSS', 'Vercel'],
-    githubUrl: 'https://github.com/nextshift/thigas-salon',
-    liveUrl: 'https://thigas-pet-salon.vercel.app',
   },
   {
     id: 'EcoTrack',
@@ -71,8 +67,6 @@ const projectsData: ProjectDetails[] = [
       { url: '/projects/ecotrack/EcoTrack4.png', alt: 'EcoTrack features' },
     ],
     tags: ['Vue.js', 'Node.js', 'Express', 'PostgreSQL', 'D3.js'],
-    githubUrl: 'https://github.com/nextshift/ecotrack',
-    liveUrl: 'https://ecotrack.earth',
   },
   {
     id: 'AgriSense',
@@ -85,8 +79,6 @@ const projectsData: ProjectDetails[] = [
       { url: '/projects/agrisense/AgriSense4.png', alt: 'AgriSense features' },
     ],
     tags: ['React', 'IoT', 'Python', 'TensorFlow', 'AWS IoT'],
-    githubUrl: 'https://github.com/nextshift/agrisense',
-    liveUrl: 'https://agrisense.farm',
   },
 ];
 

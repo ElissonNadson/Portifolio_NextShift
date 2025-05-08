@@ -24,12 +24,12 @@ const teamMembers: TeamMember[] = [
     id: 'adriel',
     name: 'Adriel Henrique',
     role: 'Desenvolvedor Frontend',
-    bio: 'Especialista em React e NextJS, focado em criar interfaces modernas e responsivas com excelente experiência do usuário.',
+    bio: 'Sou programador especializado em Ciência de Dados, pipelines ETL e automações RPA com Python, transformando dados brutos em soluções estratégicas. Utilizo Apache Spark e Databricks para processamento distribuído em larga escala, aliando eficiência operacional a análises preditivas. Minha abordagem combina modelagem de dados, Machine Learning e automação inteligente para otimizar workflows e gerar insights valiosos.',
     image: '/projects/fotos/Adriel.png',
-    skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'UI/UX'],
+    skills: ['SQL', 'C', 'TypeScript', 'Python', 'JvaScript', 'Java', 'Ruby', 'Git', 'Next.js', 'Apache Spark', 'React', 'TailwindCSS', 'Bootstrap', 'Machine Learning'],
     links: {
-      github: 'https://github.com/adriel',
-      linkedin: 'https://linkedin.com/in/adriel',
+      github: 'https://github.com/YGerard324',
+      linkedin: 'https://linkedin.com/in/adriel-henrique-a20601225',
       whatsapp: 'https://wa.me/5575991707880'
     }
   },
@@ -37,12 +37,12 @@ const teamMembers: TeamMember[] = [
     id: 'jose',
     name: 'José Henrique',
     role: 'Desenvolvedor Backend',
-    bio: 'Especialista em arquiteturas escaláveis com Node.js e bancos de dados. Experiência em APIs RESTful e integração de sistemas.',
+    bio: 'Estudante de Desenvolvimento de Sistemas. Comecei minha jornada profissional aos 14 anos em atendimento ao cliente. Após um curso de Design na Gracom e experiência como designer na Decorart, enfrentei a pandemia em 2020, quando me tornei assistente de TI na Suporte Informática. Atualmente, estou aprimorando minhas habilidades em Desenvolvimento de Sistemas no Senai, buscando contribuir no campo da tecnologia e inovação.',
     image: '/projects/fotos/Jose.png',
-    skills: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Microservices'],
+    skills: ['SQL', 'Java', 'Python', 'PostgreSQL', 'C', 'C++', 'SQLite','Node.js', 'Git','Next.js', 'Express.js', 'Spring Boot', 'Postman'],
     links: {
-      github: 'https://github.com/jose',
-      linkedin: 'https://linkedin.com/in/jose',
+      github: 'https://github.com/josehlopes',
+      linkedin: 'https://linkedin.com/in/josé-henrique-silva-lopes-826981208',
       whatsapp: 'https://wa.me/5575981062372'
     }
   },
@@ -50,12 +50,12 @@ const teamMembers: TeamMember[] = [
     id: 'nadson',
     name: 'Elisson Nadson',
     role: 'DevOps Engineer',
-    bio: 'Especialista em infraestrutura em nuvem e CI/CD, automatizando processos de deploy e garantindo escalabilidade e segurança.',
+    bio: 'Iniciei minha trajetória profissional aos 14 anos, conciliando trabalho e estudo para adquirir diversas habilidades. Trabalhei na MDK Provedor, onde aprendi uma profissão e abri meu próprio provedor de internet, e atualmente atuo na Fastnet Informática com instalação e manutenção de sistemas, segurança por câmeras e reparo de computadores. Apesar de pausas nos estudos em Eletrotécnica e Matemática, conclui o curso técnico em informática no IETAAM, estudo Desenvolvimento de Sistemas no SENAI e iniciei Engenharia de Software na Pitágoras. Também tive experiência temporária no IBGE e agora busco oportunidades na programação, determinado a realizar meu sonho de ser um grande programador.',
     image: '/projects/fotos/Nadson.png',
-    skills: ['Docker', 'Kubernetes', 'AWS', 'CI/CD', 'Terraform'],
+    skills: ['Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Node.js', 'Git', 'Docker', 'React', 'Next.js', 'Express.js', 'AWS', 'Google Cloud', 'Bootstrap', 'Figma', 'C'],
     links: {
-      github: 'https://github.com/nadson',
-      linkedin: 'https://linkedin.com/in/nadson',
+      github: 'https://github.com/ElissonNadson',
+      linkedin: 'https://linkedin.com/in/elissonmarques',
       whatsapp: 'https://wa.me/5575991641174'
     }
   },
@@ -63,12 +63,12 @@ const teamMembers: TeamMember[] = [
     id: 'samuel',
     name: 'Samuel',
     role: 'Mobile Developer',
-    bio: 'Especialista em desenvolvimento de aplicações mobile com React Native, entregando experiências nativas de alta qualidade.',
+    bio: 'Desenvolvedor de Software experiente, com especialização em Python para automação e criação de aplicações robustas. Possui habilidades em HTML & CSS, PHP, JavaScript e TypeScript, desenvolvendo interfaces web dinâmicas e responsivas. Proficiente em SQL/MySQL para gerenciamento de banco de dados. Experiência com Git e GitHub Actions para controle de versão e fluxos de trabalho CI/CD. Forte conhecimento em UI/UX com Figma, aplicando princípios de usabilidade e design. Familiarizado com Java e C#, sempre disposto a aprender e se adaptar. Atua bem tanto de forma independente quanto em equipe, solucionando problemas com inovação e boas práticas.',
     image: '/projects/fotos/Samuel.png',
-    skills: ['React Native', 'TypeScript', 'Mobile UI', 'API Integration', 'Redux'],
+    skills: ['React Native', 'TypeScript', 'Mobile UI', 'API Integration', 'Redux', 'Git', 'Expo', 'React', 'TailwindCSS', 'Bootstrap', 'Figma', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Next.js', 'C'],
     links: {
-      github: 'https://github.com/samuel',
-      linkedin: 'https://linkedin.com/in/samuel',
+      github: 'https://github.com/Sjr0405',
+      linkedin: 'https://linkedin.com/in/samuel-junior-0415b8299',
       whatsapp: 'https://wa.me/5575999970922'
     }
   },
@@ -78,10 +78,10 @@ const teamMembers: TeamMember[] = [
     role: 'UI/UX Designer',
     bio: 'Especialista em criar experiências de usuário intuitivas e interfaces visualmente atraentes, sempre focando na usabilidade.',
     image: '/projects/fotos/Thiago.png',
-    skills: ['Figma', 'Adobe XD', 'Prototyping', 'User Research', 'Design Systems'],
+    skills: ['SQL', 'Java', 'Python', 'PostgreSQL', 'C', 'SQLite','Node.js', 'Git','Next.js', 'Express.js', 'Spring Boot', 'Postman'],
     links: {
-      github: 'https://github.com/thiago',
-      linkedin: 'https://linkedin.com/in/thiago',
+      github: 'https://github.com/ThiagoMachado2',
+      linkedin: 'https://linkedin.com/in/thiago-machado-20658b32a',
       whatsapp: 'https://wa.me/5575992136288'
     }
   }

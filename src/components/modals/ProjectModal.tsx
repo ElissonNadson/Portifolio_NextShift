@@ -147,7 +147,6 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
         </div>
         
         <DialogClose className="absolute right-4 top-4 text-gray-400 hover:text-white">
-          <X size={18} />
         </DialogClose>
       </DialogContent>
     </Dialog>

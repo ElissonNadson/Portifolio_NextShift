@@ -75,6 +75,18 @@ const Footer = () => {
                   {t('services.cloud.title')}
                 </a>
               </li>
+              <li>
+                <a href="#services" className="text-gray-400 hover:text-custom-purple transition-colors flex items-center">
+                  <span className="w-2 h-2 bg-custom-purple rounded-full mr-2"></span>
+                  {t('services.data.title')}
+                </a>
+              </li>
+              <li>
+                <a href="#services" className="text-gray-400 hover:text-custom-purple transition-colors flex items-center">
+                  <span className="w-2 h-2 bg-custom-purple rounded-full mr-2"></span>
+                  {t('services.security.title')}
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -118,7 +130,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-medium">Email</h4>
-                  <a href="mailto:adriel@nextshift.com" className="text-gray-400 hover:text-custom-purple transition-colors">
+                  <a href="mailto:adrielfsa1@gmail.com" className="text-gray-400 hover:text-custom-purple transition-colors">
                     adriel@nextshift.com
                   </a>
                 </div>
