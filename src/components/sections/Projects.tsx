@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '@/utils/LanguageContext';
 import ProjectModal from '@/components/modals/ProjectModal';
 import type { ProjectDetails, ProjectImage } from '@/components/modals/ProjectModal';
+import { cursorTo } from 'readline';
 
 const projectsData: ProjectDetails[] = [
   {
@@ -113,6 +114,8 @@ const Projects: React.FC = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true, margin: "-100px" }}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
+              onClick={() => setSelectedProject(project)}
+              style={{ cursor: 'pointer' }}
             >
               <div className="h-48 overflow-hidden">
                 <img 

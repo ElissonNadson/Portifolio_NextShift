@@ -41,8 +41,28 @@ const Navbar: React.FC = () => {
   }, [isOpen]);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const isAtTop = window.scrollY === 0;
+
+  if (isOpen) {
+    // Fechar o menu
+    setIsOpen(false);
+    document.body.style.overflow = 'auto';
+  } else {
+    // Voltar ao topo antes de abrir o menu
+    if (!isAtTop) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Aguarda a rolagem antes de abrir o menu
+      setTimeout(() => {
+        setIsOpen(true);
+        document.body.style.overflow = 'hidden';
+      }, 400); // Ajuste o tempo conforme a duração da rolagem
+    } else {
+      setIsOpen(true);
+      document.body.style.overflow = 'hidden';
+    }
+  }
+};
 
   const closeMenu = () => {
     setIsOpen(false);
@@ -106,14 +126,19 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex flex-1 justify-center items-center">
             <div className="flex space-x-10">
               {navLinks.map((link) => (
-                <a
+                <button
                   key={link.name}
-                  href={link.href}
+                  onClick={() => {
+                    const target = document.querySelector(link.href);
+                    if (target) {
+                      target.scrollIntoView({ behavior: 'smooth' });
+                      closeMenu(); // fecha o menu se for mobile
+                    }
+                  }}
                   className="text-gray-300 hover:text-custom-purple transition-colors font-medium"
-                  onClick={closeMenu}
                 >
                   {link.name}
-                </a>
+                </button>
               ))}
             </div>
           </div>
@@ -151,14 +176,19 @@ const Navbar: React.FC = () => {
         >
           <div className="flex flex-col items-center space-y-8">
             {navLinks.map((link) => (
-              <a
+              <button
                 key={link.name}
-                href={link.href}
+                onClick={() => {
+                  const target = document.querySelector(link.href);
+                  if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    closeMenu(); // fecha o menu
+                  }
+                }}
                 className="text-white hover:text-custom-purple transition-colors text-xl font-semibold"
-                onClick={closeMenu}
               >
                 {link.name}
-              </a>
+              </button>
             ))}
             {/* Social icons mobile */}
             <div className="flex items-center space-x-6 pt-2">
@@ -185,3 +215,7 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+function goto(arg0: string) {
+  throw new Error('Function not implemented.');
+}
+
