@@ -1,8 +1,9 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '@/utils/LanguageContext';
 import Wave from '@/components/ui/Wave';
 
-const faqs = [
+const faqsPt = [
   {
     question: 'Quais serviços a Next Shift oferece?',
     answer: 'Desenvolvimento web, mobile, soluções em nuvem, UI/UX, automação e consultoria tecnológica.'
@@ -21,15 +22,36 @@ const faqs = [
   },
 ];
 
+const faqsEn = [
+  {
+    question: 'What services does Next Shift offer?',
+    answer: 'Web development, mobile, cloud solutions, UI/UX, automation and technological consultancy.'
+  },
+  {
+    question: 'How can I contact the team?',
+    answer: 'You can contact us via WhatsApp, email, or the contact form on the contact section.'
+  },
+  {
+    question: 'Do you work on projects of any size?',
+    answer: 'Yes! We can adapt solutions to meet the needs of small businesses to large corporations.'
+  },
+  {
+    question: 'What is the average delivery time for a project?',
+    answer: 'The delivery time depends on the complexity of the project, but we always strive for quick and quality delivery.'
+  },
+]
+
 const FaqSection: React.FC = () => {
   const [openIndex, setOpenIndex] = React.useState<number | null>(null);
+  const { t, language } = useLanguage();
+  const faqs = language === 'en' ? faqsEn : faqsPt;
 
   const toggle = (idx: number) => {
     setOpenIndex(openIndex === idx ? null : idx);
   };
 
   return (
-    <section id="faq" className="py-20 bg-[#201739] relative">
+    <section id="faq" className="py-20 bg-[#2d145d] relative">
       <div className="container mx-auto px-4 max-w-2xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-white">FAQ</h2>
         <div className="space-y-4">

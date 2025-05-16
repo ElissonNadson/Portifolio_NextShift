@@ -23,7 +23,7 @@ const TeamLinksModal: React.FC<TeamLinksModalProps> = ({ isOpen, onClose }) => {
           {members.map((member) => (
             <div key={member.name} className="flex items-center gap-4 bg-custom-dark-light rounded-lg p-4 shadow border border-custom-purple/10">
               <img
-                src={member.avatar || '/default-avatar.png'}
+                src={member.avatar || '/src/assets/images/placeholder.svg'}
                 alt={member.name}
                 className="w-16 h-16 rounded-full object-cover border-2 border-custom-purple"
               />

@@ -51,7 +51,7 @@ export const TeamMembersProvider: React.FC<{ children: React.ReactNode }> = ({ c
     },
     {
       name: "Samuel Junior",
-      avatar: "/projects/fotos/Samuel.png",
+      avatar: "/projects/fotos/Samuel.jpg",
       role: { en: "Frontend Developer", pt: "Desenvolvedor Frontend" },
       github: "Sjr0405",
       linkedin: "samuel-junior-0415b8299",

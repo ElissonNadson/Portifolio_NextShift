@@ -62,11 +62,19 @@ const translations = {
     'projects.AgriSense.title': 'AgriSense',
     'projects.AgriSense.description': "AgriSense brings intelligent plant care to your fingertips. Monitor plant health in real time with advanced sensors that track everything from soil moisture to sunlight and temperature. Get alerts, insights, and recommendations to keep your crops thriving. Whether in a greenhouse or in the field, AgriSense connects you to what your plants need — when they need it.",
 
+    // Team
+    'team.title': 'Our Team',
+    'team.subtitle': 'We are a team of passionate developers and entrepreneurs who are committed to delivering innovative solutions that make a difference in the world.',
+
     // Footer
     'footer.company': 'Next Shift',
     'footer.description': 'We turn ideas into products with efficiency, strategy, and technical excellence.',
     'footer.services': 'Our Services',
     'footer.contact': 'Contact Us',
+    'footer.Location': 'Feira de Santana, Bahia',
+    'footer.Brazil': 'Brazil',
+    'footer.location': 'Location',
+    'footer.telephone': 'Telephone',
     'footer.rights': 'All rights reserved.',
   },
   pt: {
@@ -120,13 +128,21 @@ const translations = {
     'projects.EcoTrack.title': 'EcoTrack',
     'projects.EcoTrack.description': "O EcoTrack ajuda você a entender sua pegada de carbono diária e te dá o poder de reduzi-la. Acompanhe suas emissões em tempo real, veja comparações inteligentes e descubra dicas práticas para tomar decisões mais sustentáveis. Seja no transporte, nas compras ou na cozinha, o EcoTrack transforma consciência em ação. Assuma o controle do seu impacto ambiental — um dia de cada vez!",
     'projects.AgriSense.title': 'AgriSense',
-    'projects.AgriSense.description': "AgriSense brings intelligent plant care to your fingertips. Monitor plant health in real time with advanced sensors that track everything from soil moisture to sunlight and temperature. Get alerts, insights, and recommendations to keep your crops thriving. Whether in a greenhouse or in the field, AgriSense connects you to what your plants need — when they need it.",
+    'projects.AgriSense.description': "O AgriSense leva o cuidado inteligente com plantas para a palma da sua mão. Monitore a saúde das plantas em tempo real com sensores avançados que acompanham desde a umidade do solo até a luz solar e temperatura. Receba alertas, insights e recomendações para manter suas culturas sempre saudáveis. Seja em estufas ou no campo, o AgriSense conecta você ao que suas plantas precisam — na hora certa.",
+    
+    //Team
+    'team.title': 'Nossa Equipe',
+    'team.subtitle': 'Nossa equipe de desenvolvedores talentosos e comprometidos, prontos para ajudar você a criar soluções inovadoras.', 
 
     // Footer
     'footer.company': 'Next Shift',
     'footer.description': 'Transformamos ideias em produtos com eficiência, estratégia e excelência técnica.',
     'footer.services': 'Nossos Serviços',
     'footer.contact': 'Contato',
+    'footer.Location': 'Feira de Santana, Bahia',
+    'footer.Brazil': 'Brasil',
+    'footer.location': 'Localização',
+    'footer.telephone': 'Telefone',
     'footer.rights': 'Todos os direitos reservados.',
   }
 };

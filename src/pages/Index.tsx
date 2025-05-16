@@ -26,9 +26,11 @@ const Index = () => {
         <Wave fill="#181926" animate />
 
         <TeamSlider />
-        <Wave fill="#201739" animate flip />
+        <Wave fill="#2d145d" animate flip />
 
         <FaqSection />
+        <Wave fill="#2d145d" animate />
+
         <Footer />
       </div>
     </TeamMembersProvider>

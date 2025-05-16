@@ -99,10 +99,10 @@ const Footer = () => {
                   <FaMapMarkerAlt size={20} className="text-custom-purple" />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium">Localização</h4>
+                  <h4 className="text-white font-medium">{t('footer.location')}</h4>
                   <span className="text-gray-400">
-                    Feira de Santana, Bahia
-                    <br />Brasil
+                    {t('footer.Location')}
+                    <br />{t('footer.Brazil')}
                   </span>
                 </div>
               </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                   <FaPhone size={20} className="text-custom-purple" />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium">Telefone</h4>
+                  <h4 className="text-white font-medium">{t('footer.telephone')}</h4>
                   <a 
                     href="https://wa.me/5575991707880" 
                     target="_blank"
@@ -131,7 +131,7 @@ const Footer = () => {
                 <div>
                   <h4 className="text-white font-medium">Email</h4>
                   <a href="mailto:adrielfsa1@gmail.com" className="text-gray-400 hover:text-custom-purple transition-colors">
-                    adriel@nextshift.com
+                    adrielfsa1@gmail.com
                   </a>
                 </div>
               </div>
